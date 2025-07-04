@@ -1,0 +1,109 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>ClubConnect - Book Club Events</title> 
+    <link rel="icon" type="image/x-icon" href="clubconnect.ico"> 
+    <link rel="stylesheet" href="style.css"> 
+</head> 
+<body>
+    <!-- Header Section -->
+<header>
+    <div class="heading">
+        <h1>ClubConnect</h1>
+        <input id="searchbar" type="text" placeholder="Search Events">        
+    </div>
+
+    <nav>
+        <button class="navbtn"><a class="navlinks" href="#home">Home</a></button>
+        <button class="navbtn"><a class="navlinks" href="#events">Events</a></button>
+        <button class="navbtn"><a class="navlinks" href="#recommendations">Recommended</a></button>
+        <button class="navbtn"><a class="navlinks" href="#contact">Contact Us</a></button>
+    </nav>
+</header>
+
+<!-- Hero Section -->
+<section id="hero">
+    <h2>Discover & Book Events at Top Clubs</h2>
+    <p>Get personalized recommendations and easy bookings with ClubConnect!</p>
+    <button onclick="location.href='#events'">Explore Events</button>
+</section>
+
+<!-- Events Section -->
+<section id="events">
+    <h2>Upcoming Events</h2>
+    <div class="event-carousel">
+        <div class="events">
+            <div class="event">
+                <h3>DJ Night</h3>
+                <p>Date: 15th November</p>
+                <p>Location: Club XYZ</p>
+                <p>Price: $20</p>
+                <button>Book Now</button>
+            </div>
+
+            <div class="event">
+                <h3>Live Concert</h3>
+                <p>Date: 20th November</p>
+                <p>Location: Club ABC</p>
+                <p>Price: $50</p>
+                <button>Book Now</button>
+            </div>
+
+            <div class="event">
+                <h3>Exclusive Jazz Night</h3>
+                <p>Date: 25th November</p>
+                <p>Location: Club Jazz</p>
+                <p>Price: $30</p>
+                <button>Book Now</button>
+            </div>
+
+            <div class="event">
+                <h3>Comedy Show</h3>
+                <p>Date: 30th November</p>
+                <p>Location: Club Laughs</p>
+                <p>Price: $15</p>
+                <button>Book Now</button>
+            </div>
+
+            <div class="event">
+                <h3>Rock Night</h3>
+                <p>Date: 5th December</p>
+                <p>Location: Club Rock</p>
+                <p>Price: $25</p>
+                <button>Book Now</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Recommendations Section -->
+<section id="recommendations">
+    <h2>Recommended for You</h2>
+
+    <div class="event">
+        <h3>Exclusive Jazz Night</h3>
+        <p>Personalized just for you!</p>
+        <p>Date: 25th November</p>
+        <p>Location: Club Jazz</p>
+        <p>Price: $30</p>
+        <button>Book Now</button>
+    </div>
+</section>
+
+<!-- Contact Us Section - Main Page (index.html) --> 
+<section id="list-your-event"> 
+    <h2>List Your Event Today</h2> 
+    <p>Want to bring your event to ClubConnect? Connect with us to reach more people!</p> 
+    <button id="connect-today" onclick="window.location.href='contact.html'">Connect Today</button> 
+</section>
+<!-- Footer Section -->
+<footer>
+    <p>&copy; 2024 ClubConnect. All rights reserved.</p>
+    <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

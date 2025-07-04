@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Now - ClubConnect</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="heading">
+            <h1>ClubConnect</h1>
+        </div>
+        <nav>
+            <button class="navbtn"><a class="navlinks" href="index.html">Home</a></button>
+            <button class="navbtn"><a class="navlinks" href="#contact">Contact Us</a></button>
+        </nav>
+    </header>
+
+    <!-- Booking Form Section -->
+    <section id="book-now">
+        <h2>Book Your Event</h2>
+        <form id="booking-form">
+            <!-- Event Details -->
+            <label for="event-name">Event Name:</label>
+            <input type="text" id="event-name" name="event-name" value="Exclusive Jazz Night" readonly>
+
+            <label for="event-date">Event Date:</label>
+            <input type="date" id="event-date" name="event-date" value="2024-11-25" readonly>
+
+            <label for="event-location">Location:</label>
+            <input type="text" id="event-location" name="event-location" value="Club Jazz" readonly>
+
+            <label for="price">Price (per ticket):</label>
+            <input type="text" id="price" name="price" value="$30" readonly>
+
+            <!-- User Details -->
+            <label for="full-name">Full Name:</label>
+            <input type="text" id="full-name" name="full-name" placeholder="Enter your full name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+
+            <label for="quantity">Number of Tickets:</label>
+            <input type="number" id="quantity" name="quantity" min="1" max="10" value="1" required>
+
+            <!-- Payment Option -->
+            <label for="payment">Payment Method:</label>
+            <select id="payment" name="payment" required>
+                <option value="Credit-Card">Credit Card</option>
+                <option value="Debit-Card">Debit Card</option>
+                <option value="UPI">UPI</option>
+            </select>
+
+            <!-- Submit -->
+            <button type="submit" id="submit-btn">Confirm Booking</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 ClubConnect. All rights reserved.</p>
+        <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    </footer>
+
+    <script src="script1.js"></script>
+</body>
+</html>

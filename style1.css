@@ -1,0 +1,138 @@
+/* Reset Styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Header and Navigation */
+.heading {
+    height: 80px;
+    width: 100%;
+    background-color: #094074;
+    color: #FFDD4A;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.heading h1 {
+    font-size: 1.8rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+nav {
+    height: 50px;
+    width: 100%;
+    background-color: #3C6997;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 0;
+}
+
+.navbtn {
+    background: none;
+    border: none;
+}
+
+.navlinks {
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.navlinks:hover {
+    color: yellow;
+}
+
+/* Booking Form Section */
+#book-now {
+    padding: 40px 20px;
+    background-color: #f4f4f9;
+}
+
+#book-now h2 {
+    font-size: 2rem;
+    color: #094074;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#booking-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#booking-form label {
+    font-size: 1rem;
+    color: #3C6997;
+    font-weight: bold;
+    align-self: flex-start;
+    margin-bottom: 5px;
+}
+
+#booking-form input,
+#booking-form select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+#booking-form input[readonly] {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+#booking-form input::placeholder {
+    color: #aaa;
+}
+
+#submit-btn {
+    padding: 10px 20px;
+    background-color: #094074;
+    color: #FFDD4A;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#submit-btn:hover {
+    background-color: #FFDD4A;
+    color: #094074;
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    background-color: #094074;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: #FFDD4A;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

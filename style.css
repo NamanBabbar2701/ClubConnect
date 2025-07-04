@@ -1,0 +1,256 @@
+/* Reset Styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Header and Navigation */
+.heading {
+    height: 80px;
+    ```css
+    width: 100%;
+    background-color: #094074;
+    color: #FFDD4A;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.heading h1 {
+    font-size: 1.8rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.heading input[type="text"] {
+    width: 300px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+nav {
+    height: 50px;
+    width: 100%;
+    background-color: #3C6997;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navbtn {
+    background: none;
+    border: none;
+}
+
+.navlinks {
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navlinks:hover {
+    color: yellow;
+}
+
+/* Hero Section */
+#hero {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+#hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+#hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+#hero button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #094074;
+    background-color: #FFDD4A;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Events and Recommendations Section */
+#events, #recommendations {
+    padding: 40px 20px;
+}
+
+#events h2, #recommendations h2 {
+    font-size: 2rem;
+    color: #094074;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.event-carousel {
+    overflow: hidden;
+    max-width: 100%;
+    position: relative;
+}
+
+.events {
+    display: flex;
+    transition: transform 0.5s ease;
+    gap: 1rem;
+}
+
+.event {
+    flex: 0 0 300px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.event h3 {
+    font-size: 1.5rem;
+    color: #3C6997;
+}
+
+.event p {
+    margin: 10px 0;
+}
+
+.event button {
+    padding: 10px 20px;
+    background-color: #094074;
+    color: #FFDD4A;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Styling for List Your Event Section on Main Page */
+#list-your-event {
+    text-align: center;
+    padding: 3rem;
+    background-color: #094074;
+    color: #FFDD4A;
+}
+
+#list-your-event h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+#list-your-event p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* Connect Today Button Styling */
+#connect-today {
+    background-color: #FFDD4A;
+    color: #094074;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+#connect-today:hover {
+    background-color: #FFA41B;
+    color: white;
+    transform: scale(1.05);
+}
+
+#connect-today:focus {
+    outline: none;
+    box-shadow: 0 0 10px #FFDD4A;
+}
+
+/* Footer */
+footer {
+    background-color: #094074;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: #FFDD4A;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Upcoming Events Section */
+#upcoming-events {
+    text-align: center;
+    padding:  2rem;
+    background-color: #f4f4f9;
+}
+
+#upcoming-events h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #094074;
+}
+
+/* Event Carousel */
+.event-carousel {
+    overflow: hidden;
+    max-width: 100%;
+    position: relative;
+}
+
+.events {
+    display: flex;
+    transition: transform 0.5s ease;
+    gap: 1rem;
+}
+
+/* Individual Event Styling */
+.event {
+    flex: 0 0 300px;
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.event h3 {
+    color: #094074;
+    margin-bottom: 0.5rem;
+}
+
+.event p {
+    margin: 0.3rem 0;
+}
+
+.event button {
+    background-color: #094074;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.event button:hover {
+    background-color: #FFDD4A;
+    color: #094074;
+}
